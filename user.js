@@ -1,34 +1,3 @@
-var GoogleAuth;
-var zE;
-window.sectorSystem = {
-  settings: {
-    lineWidth: 0.15,
-    lineColor: 16711680,
-    lineAlpha: 0.3,
-    backgroundColor: 0,
-    backgroundAlpha: 0.6,
-    sectorTextStyle: {
-      fontFamily: "Arial",
-      fontSize: 14,
-      fill: 16777215
-    },
-    quarterTextStyle: {
-      fontFamily: "Arial",
-      fontSize: 20,
-      fill: 16777215
-    },
-    showLines: true
-  },
-  state: {
-    container: null,
-    graphics: null,
-    isActive: false,
-    currentMode: null,
-    texts: [],
-    initialized: false,
-    renderContainer: null,
-    restored: false
-  },
   findRenderContainer: function () {
     if (this.state.renderContainer) {
       return this.state.renderContainer;
@@ -10305,6 +10274,7 @@ window.addEventListener("keydown", (p670) => {
     }
   }
 });
+
 
 
 
